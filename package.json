@@ -1,0 +1,24 @@
+{
+  "name": "document-compare",
+  "version": "1.0.0",
+  "description": "This script will copare docx file and determind that wheither the change found during of after the deployment",
+  "main": "docCompare.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sraskin/docx-document-compare.git"
+  },
+  "author": "Shariar Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sraskin/docx-document-compare/issues"
+  },
+  "homepage": "https://github.com/sraskin/docx-document-compare#readme",
+  "dependencies": {
+    "diff": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "mammoth": "^1.7.0"
+  }
+}
